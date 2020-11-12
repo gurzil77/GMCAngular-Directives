@@ -1,0 +1,15 @@
+<p [ngClass]="{
+    theme1 : themeSwitcher === 'theme1',
+    theme2 : themeSwitcher === 'theme2',
+    theme3 : themeSwitcher === 'theme3'
+}"
+>themes-change works!</p>
+<button (click)="buttonClicked('theme1')">
+    Show Theme 1
+</button>
+<button (click)="buttonClicked('theme2')">
+    Show Theme 2
+</button>
+<button (click)="buttonClicked('theme3')"> 
+    Show Theme 3
+</button>

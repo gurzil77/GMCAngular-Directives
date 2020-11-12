@@ -1,0 +1,15 @@
+.theme1 {
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color : red;
+}
+.theme2 {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : blue;
+}
+.theme3 {
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    color : forestgreen;
+}
