@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { MiniwordComponent } from './directives/miniword/miniword.component';
 import { ThemesChangeComponent } from './directives/themes-change/themes-change.component';
+import { CutsomDirectiveDirective } from './directives/cutsom-directive.directive';
+import { CustomDirective2Directive } from './directives/custom-directive2.directive';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { ThemesChangeComponent } from './directives/themes-change/themes-change.
     DirectivesComponent,
     MiniwordComponent,
     ThemesChangeComponent,
+    CutsomDirectiveDirective,
+    CustomDirective2Directive,
   ],
   imports: [
     BrowserModule,
