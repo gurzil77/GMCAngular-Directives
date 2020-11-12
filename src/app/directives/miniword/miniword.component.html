@@ -1,0 +1,24 @@
+<p [ngStyle]="{
+    'background-color': selectedColor,
+    'font-size': selectedSize + 'px', 
+    'font-family': selectedFont
+    }">miniword works!</p>
+
+
+<div>
+    <div>
+       Color :  <input type="text" (input)="onColorInput($event.target.value)">
+    </div>
+    <div>
+        Taille : <input type="number" (input)="onSizeInput($event.target.value)">
+    </div>
+    <div>
+        Police : 
+        <select (click)="onSelectFont($event.target.value)"> 
+            <option value="garamond">Garamond</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Times new Roman">Times New Roman</option>
+        </select>
+    </div>
+</div>
+
