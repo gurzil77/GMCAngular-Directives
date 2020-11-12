@@ -8,6 +8,7 @@ import { MiniwordComponent } from './directives/miniword/miniword.component';
 import { ThemesChangeComponent } from './directives/themes-change/themes-change.component';
 import { CutsomDirectiveDirective } from './directives/cutsom-directive.directive';
 import { CustomDirective2Directive } from './directives/custom-directive2.directive';
+import { IfComponent } from './directives/if/if.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CustomDirective2Directive } from './directives/custom-directive2.direct
     ThemesChangeComponent,
     CutsomDirectiveDirective,
     CustomDirective2Directive,
+    IfComponent,
   ],
   imports: [
     BrowserModule,
