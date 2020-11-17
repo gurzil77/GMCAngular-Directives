@@ -9,6 +9,8 @@ import { ThemesChangeComponent } from './directives/themes-change/themes-change.
 import { CutsomDirectiveDirective } from './directives/cutsom-directive.directive';
 import { CustomDirective2Directive } from './directives/custom-directive2.directive';
 import { IfComponent } from './directives/if/if.component';
+import { DefaultImagePipe } from './pipes/default-image.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,10 +21,12 @@ import { IfComponent } from './directives/if/if.component';
     CutsomDirectiveDirective,
     CustomDirective2Directive,
     IfComponent,
+    DefaultImagePipe,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
