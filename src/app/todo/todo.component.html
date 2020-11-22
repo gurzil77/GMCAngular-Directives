@@ -1,0 +1,11 @@
+<ol>
+    <li *ngFor="let todo of todos"> 
+        {{todo.name}} : {{todo.content}}
+         <button on-click="todoDelete(todo)">Delete</button>
+    </li>
+</ol>
+Name : <input type="text" [(ngModel)]="todo.name">
+Content : <input type="text" [(ngModel)]="todo.content">
+<button 
+(click)="todoAdd()"
+[disabled]="!todo.name.trim().length || !todo.content.trim().length">Add Todo </button>

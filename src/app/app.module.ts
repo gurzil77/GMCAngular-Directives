@@ -11,6 +11,13 @@ import { CustomDirective2Directive } from './directives/custom-directive2.direct
 import { IfComponent } from './directives/if/if.component';
 import { DefaultImagePipe } from './pipes/default-image.pipe';
 import { FormsModule } from '@angular/forms';
+import { TodoComponent } from './todo/todo.component';
+import { HiringCvComponent } from './hiring-cv/hiring-cv.component';
+import { EmbaucheComponent } from './hiring-cv/embauche/embauche.component';
+import {CvComponent} from './hiring-cv/cv/cv.component'
+import {ListComponent} from './hiring-cv/cv/list/list.component'
+import {DetailComponent} from './hiring-cv/cv/detail/detail.component'
+import {ItemComponent} from './hiring-cv/cv/item/item.component'
 
 @NgModule({
   declarations: [
@@ -22,6 +29,13 @@ import { FormsModule } from '@angular/forms';
     CustomDirective2Directive,
     IfComponent,
     DefaultImagePipe,
+    TodoComponent,
+    HiringCvComponent,
+    CvComponent,
+    EmbaucheComponent,
+    ListComponent,
+    DetailComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
